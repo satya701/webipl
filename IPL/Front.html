@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Cricket Team</title>
+    <link rel="stylesheet" href="FrontStyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+        integrity="undefined" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+            <div class="input-group"> 
+                <input type="text" value="" id="search" onchange="openPage()" class="form-control" size="40">
+                <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+                <script>
+                    function openPage() {
+                        var x = document.getElementById("search").value;
+            
+                        if (x === "csk") {
+                            window.open("/ipl/csk.html");
+                        }
+            
+                        if (x === "mi") {
+                            window.open("/ipl/mi.html");
+                        }
+
+                        if (x === "rcb") {
+                            window.open("/ipl/rcb.html");
+                        }
+
+                        if (x === "kkr") {
+                        window.open("/ipl/kkr.html");
+                        }
+
+                        if (x === "dc") {
+                            window.open("/ipl/dc.html");
+                        }
+
+                        if (x === "srh") {
+                        window.open("/ipl/srh.html");
+                        }
+
+                        if (x === "rr") {
+                            window.open("/ipl/rr.html");
+                        }
+
+                        if (x === "kxip") {
+                        window.open("/ipl/kxip.html");
+                        }
+
+                    }
+                </script>
+
+            </div> 
+    <section class="Teams">
+        
+        <h1 class="heading1">IPL Teams of 2021</h1>
+
+        <p class="para1" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic a fuga, dolores est iusto quidem.</p>
+        <div class="row">
+
+            <div class="Teams-col" onclick="location.href='csk.html';">
+
+                <img src="images/csk-hd-logo-2020.png" alt="Error">
+
+                <div class="layer">
+
+                    <h3>Chennai Super Kings</h3>
+
+                </div>
+
+            </div>
+
+            <div class="Teams-col" onclick="location.href='rcb.html';">
+
+                <img src="images/RCB-png-logo-2020.png" alt="Error">
+
+                <div class="layer">
+
+                    <h3>Royal Challengers Bangalore</h3>
+
+                </div>
+
+            </div>
+
+            <div class="Teams-col" onclick="location.href='mi.html';">
+
+                <img src="images/mumbai-indians-png-logo-2020 (1).png" alt="Error">
+
+                <div class="layer">
+
+                    <h3>Mumbai Indians</h3>
+
+                </div>
+
+            </div>
+
+            <div class="Teams-col" onclick="location.href='dc.html';">
+
+                <img src="images/Delhi-Capital-_Logo.png" alt="Error">
+
+                <div class="layer">
+
+                    <h3>Delhi Capitals</h3>
+
+                </div>
+
+            </div>
+
+            <div class="Teams-col" onclick="location.href='kkr.html';">
+
+                <img src="images/KKR-Logo.png" alt="Error">
+
+                <div class="layer">
+
+                    <h3>Kolkata Knight Riders</h3>
+
+                </div>
+
+            </div>
+
+            <div class="Teams-col" onclick="location.href='kxip.html';">
+
+                <img src="images/KXIP-Logo.png" alt="Error">
+
+                <div class="layer">
+
+                    <h3>Kings XI Punjab</h3>
+
+                </div>
+
+            </div>
+
+            <div class="Teams-col" onclick="location.href='rr.html';">
+
+                <img src="images/RR-Logo.png" alt="Error">
+
+                <div class="layer">
+
+                    <h3>Rajastan Royals</h3>
+
+                </div>
+
+            </div>
+
+            <div class="Teams-col" onclick="location.href='srh.html';">
+
+                <img src="images/SRH-Logo-Png-.png" alt="Error">
+
+                <div class="layer">
+
+                    <h3>Sunrisers Hyderabad</h3>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+   
+
+    
+</body>
+</html>
